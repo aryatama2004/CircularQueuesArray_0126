@@ -155,7 +155,10 @@ int main()
                 return 0;
             }
             default:
-  
+            {
+                cout << "Invaid option!" << endl;
+                break;
+            }
             }
         }
   
