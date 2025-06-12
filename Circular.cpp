@@ -83,7 +83,10 @@ public:
             cout << "Queue is empty\n";
             return;
         }
+        cout << "\nElement in te queue are...\n";
 
+        // jika FRONT_position <= REAR_position, terasi dari FRONT hingga REAR
+        if (FRONT_position <= REAR_position)
 
    
   
