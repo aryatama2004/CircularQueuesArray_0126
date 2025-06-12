@@ -87,7 +87,9 @@ public:
 
         // jika FRONT_position <= REAR_position, terasi dari FRONT hingga REAR
         if (FRONT_position <= REAR_position)
-
+        {
+            while (FRONT_position <= REAR_position)
+        }
    
   
     }
