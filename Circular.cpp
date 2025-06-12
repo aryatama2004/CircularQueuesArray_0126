@@ -56,7 +56,13 @@ public:
         }
         cout << "\nThe element deeted from the queue is : " << queue_array[FRONT] << "\n";
 
-
+        // cek jika antrian hanya memiliki satu elemen
+        if (FRONT == REAR)
+        {
+            FRONT = -1;
+            REAR = -1;
+        }
+  
     }
 
 
